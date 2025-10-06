@@ -176,6 +176,13 @@ function initNavigation() {
     highlightNavigation();
 }
 
+// Fixing schedule button after clicking 
+
+document.querySelectorAll('.cta-button').forEach(btn => {
+  btn.addEventListener('click', () => btn.blur());
+});
+
+
 /**
  * Initialize copy portfolio expand/collapse functionality
  */
