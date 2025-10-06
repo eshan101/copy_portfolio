@@ -101,7 +101,7 @@ h3 {
 
 p {
     margin-bottom: var(--spacing-sm);
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 a {
@@ -553,6 +553,9 @@ a:hover, a:focus {
 
 /* Responsive Design */
 @media (max-width: 1100px) {
+    p{
+        font-size: 1rem;
+    }
     .mobile-menu-toggle {
         display: flex;
     }
@@ -619,6 +622,10 @@ a:hover, a:focus {
 }
 
 @media (max-width: 480px) {
+    p{
+        font-size: 1rem;
+    }
+    
     .logo {
         font-size: 1.25rem;
     }
